@@ -15,7 +15,7 @@ install_log4cplus() {
 }
 
 install_cmake_v16.2() {
-  sudo apt purge --auto-remove cmake
+# sudo apt purge --auto-remove cmake
   version=3.16
   build=2
   mkdir -p ~/temp
